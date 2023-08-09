@@ -12,8 +12,6 @@ class GenusController
      */
     public function showAction()
     {
-        return new Response(
-            "LOL: "
-        );
+        return new Response('LOL: ');
     }
 }
