@@ -7,10 +7,8 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class GenusController
 {
-    /**
-     * @Route("/genus")
-     */
-    public function showAction()
+    #[Route(path: '/zalupa')]
+    public function showAction(): Response
     {
         return new Response('LOL: ');
     }
